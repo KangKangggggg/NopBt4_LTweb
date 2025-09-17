@@ -1,0 +1,10 @@
+<sitemesh>
+  <mapping path="/*" name="web" decorator="web.jsp"/>
+  <mapping path="/admin/*" name="admin" decorator="admin.jsp"/>
+  <!-- Exclude static resources -->
+  <mapping path="/assets*" exclude="true"/>
+  <mapping path="/uploads*" exclude="true"/>
+  <mapping path="/css*" exclude="true"/>
+  <mapping path="/js*" exclude="true"/>
+  <mapping path="/images*" exclude="true"/>
+</sitemesh>
